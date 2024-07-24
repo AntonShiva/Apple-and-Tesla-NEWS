@@ -1,0 +1,589 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 60;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2D8D2DDF2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DDE2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift */; };
+		2D8D2DE12C516F7D003AB9BC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DE02C516F7D003AB9BC /* ContentView.swift */; };
+		2D8D2DE32C516F7F003AB9BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D2DE22C516F7F003AB9BC /* Assets.xcassets */; };
+		2D8D2DE62C516F7F003AB9BC /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D8D2DE52C516F7F003AB9BC /* Preview Assets.xcassets */; };
+		2D8D2DF02C516F80003AB9BC /* Apple_and_Tesla_NEWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DEF2C516F80003AB9BC /* Apple_and_Tesla_NEWSTests.swift */; };
+		2D8D2DFA2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DF92C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift */; };
+		2D8D2DFC2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DFB2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		2D8D2DEC2C516F80003AB9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D8D2DD32C516F7D003AB9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8D2DDA2C516F7D003AB9BC;
+			remoteInfo = "Apple and Tesla NEWS";
+		};
+		2D8D2DF62C516F80003AB9BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 2D8D2DD32C516F7D003AB9BC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2D8D2DDA2C516F7D003AB9BC;
+			remoteInfo = "Apple and Tesla NEWS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2D8D2DDB2C516F7D003AB9BC /* Apple and Tesla NEWS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Apple and Tesla NEWS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8D2DDE2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSApp.swift; sourceTree = "<group>"; };
+		2D8D2DE02C516F7D003AB9BC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		2D8D2DE22C516F7F003AB9BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D8D2DE52C516F7F003AB9BC /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		2D8D2DEB2C516F80003AB9BC /* Apple and Tesla NEWSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple and Tesla NEWSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8D2DEF2C516F80003AB9BC /* Apple_and_Tesla_NEWSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSTests.swift; sourceTree = "<group>"; };
+		2D8D2DF52C516F80003AB9BC /* Apple and Tesla NEWSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple and Tesla NEWSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D8D2DF92C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSUITests.swift; sourceTree = "<group>"; };
+		2D8D2DFB2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2D8D2DD82C516F7D003AB9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8D2DE82C516F80003AB9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8D2DF22C516F80003AB9BC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2D8D2DD22C516F7D003AB9BC = {
+			isa = PBXGroup;
+			children = (
+				2D8D2DDD2C516F7D003AB9BC /* Apple and Tesla NEWS */,
+				2D8D2DEE2C516F80003AB9BC /* Apple and Tesla NEWSTests */,
+				2D8D2DF82C516F80003AB9BC /* Apple and Tesla NEWSUITests */,
+				2D8D2DDC2C516F7D003AB9BC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2D8D2DDC2C516F7D003AB9BC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D2DDB2C516F7D003AB9BC /* Apple and Tesla NEWS.app */,
+				2D8D2DEB2C516F80003AB9BC /* Apple and Tesla NEWSTests.xctest */,
+				2D8D2DF52C516F80003AB9BC /* Apple and Tesla NEWSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2D8D2DDD2C516F7D003AB9BC /* Apple and Tesla NEWS */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D2DDE2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift */,
+				2D8D2DE02C516F7D003AB9BC /* ContentView.swift */,
+				2D8D2DE22C516F7F003AB9BC /* Assets.xcassets */,
+				2D8D2DE42C516F7F003AB9BC /* Preview Content */,
+			);
+			path = "Apple and Tesla NEWS";
+			sourceTree = "<group>";
+		};
+		2D8D2DE42C516F7F003AB9BC /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D2DE52C516F7F003AB9BC /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		2D8D2DEE2C516F80003AB9BC /* Apple and Tesla NEWSTests */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D2DEF2C516F80003AB9BC /* Apple_and_Tesla_NEWSTests.swift */,
+			);
+			path = "Apple and Tesla NEWSTests";
+			sourceTree = "<group>";
+		};
+		2D8D2DF82C516F80003AB9BC /* Apple and Tesla NEWSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D2DF92C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift */,
+				2D8D2DFB2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift */,
+			);
+			path = "Apple and Tesla NEWSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2D8D2DDA2C516F7D003AB9BC /* Apple and Tesla NEWS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8D2DFF2C516F80003AB9BC /* Build configuration list for PBXNativeTarget "Apple and Tesla NEWS" */;
+			buildPhases = (
+				2D8D2DD72C516F7D003AB9BC /* Sources */,
+				2D8D2DD82C516F7D003AB9BC /* Frameworks */,
+				2D8D2DD92C516F7D003AB9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Apple and Tesla NEWS";
+			productName = "Apple and Tesla NEWS";
+			productReference = 2D8D2DDB2C516F7D003AB9BC /* Apple and Tesla NEWS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		2D8D2DEA2C516F80003AB9BC /* Apple and Tesla NEWSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8D2E022C516F80003AB9BC /* Build configuration list for PBXNativeTarget "Apple and Tesla NEWSTests" */;
+			buildPhases = (
+				2D8D2DE72C516F80003AB9BC /* Sources */,
+				2D8D2DE82C516F80003AB9BC /* Frameworks */,
+				2D8D2DE92C516F80003AB9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D8D2DED2C516F80003AB9BC /* PBXTargetDependency */,
+			);
+			name = "Apple and Tesla NEWSTests";
+			productName = "Apple and Tesla NEWSTests";
+			productReference = 2D8D2DEB2C516F80003AB9BC /* Apple and Tesla NEWSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		2D8D2DF42C516F80003AB9BC /* Apple and Tesla NEWSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2D8D2E052C516F80003AB9BC /* Build configuration list for PBXNativeTarget "Apple and Tesla NEWSUITests" */;
+			buildPhases = (
+				2D8D2DF12C516F80003AB9BC /* Sources */,
+				2D8D2DF22C516F80003AB9BC /* Frameworks */,
+				2D8D2DF32C516F80003AB9BC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				2D8D2DF72C516F80003AB9BC /* PBXTargetDependency */,
+			);
+			name = "Apple and Tesla NEWSUITests";
+			productName = "Apple and Tesla NEWSUITests";
+			productReference = 2D8D2DF52C516F80003AB9BC /* Apple and Tesla NEWSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2D8D2DD32C516F7D003AB9BC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1600;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					2D8D2DDA2C516F7D003AB9BC = {
+						CreatedOnToolsVersion = 16.0;
+					};
+					2D8D2DEA2C516F80003AB9BC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2D8D2DDA2C516F7D003AB9BC;
+					};
+					2D8D2DF42C516F80003AB9BC = {
+						CreatedOnToolsVersion = 16.0;
+						TestTargetID = 2D8D2DDA2C516F7D003AB9BC;
+					};
+				};
+			};
+			buildConfigurationList = 2D8D2DD62C516F7D003AB9BC /* Build configuration list for PBXProject "Apple and Tesla NEWS" */;
+			compatibilityVersion = "Xcode 15.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2D8D2DD22C516F7D003AB9BC;
+			productRefGroup = 2D8D2DDC2C516F7D003AB9BC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2D8D2DDA2C516F7D003AB9BC /* Apple and Tesla NEWS */,
+				2D8D2DEA2C516F80003AB9BC /* Apple and Tesla NEWSTests */,
+				2D8D2DF42C516F80003AB9BC /* Apple and Tesla NEWSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2D8D2DD92C516F7D003AB9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8D2DE62C516F7F003AB9BC /* Preview Assets.xcassets in Resources */,
+				2D8D2DE32C516F7F003AB9BC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8D2DE92C516F80003AB9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8D2DF32C516F80003AB9BC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2D8D2DD72C516F7D003AB9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8D2DE12C516F7D003AB9BC /* ContentView.swift in Sources */,
+				2D8D2DDF2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8D2DE72C516F80003AB9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8D2DF02C516F80003AB9BC /* Apple_and_Tesla_NEWSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2D8D2DF12C516F80003AB9BC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2D8D2DFC2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift in Sources */,
+				2D8D2DFA2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		2D8D2DED2C516F80003AB9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D8D2DDA2C516F7D003AB9BC /* Apple and Tesla NEWS */;
+			targetProxy = 2D8D2DEC2C516F80003AB9BC /* PBXContainerItemProxy */;
+		};
+		2D8D2DF72C516F80003AB9BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 2D8D2DDA2C516F7D003AB9BC /* Apple and Tesla NEWS */;
+			targetProxy = 2D8D2DF62C516F80003AB9BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		2D8D2DFD2C516F80003AB9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		2D8D2DFE2C516F80003AB9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2D8D2E002C516F80003AB9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple and Tesla NEWS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2D8D2E012C516F80003AB9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Apple and Tesla NEWS/Preview Content\"";
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		2D8D2E032C516F80003AB9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple and Tesla NEWS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple and Tesla NEWS";
+			};
+			name = Debug;
+		};
+		2D8D2E042C516F80003AB9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Apple and Tesla NEWS.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Apple and Tesla NEWS";
+			};
+			name = Release;
+		};
+		2D8D2E062C516F80003AB9BC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apple and Tesla NEWS";
+			};
+			name = Debug;
+		};
+		2D8D2E072C516F80003AB9BC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 3565RSK98U;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Apple and Tesla NEWS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8D2DD62C516F7D003AB9BC /* Build configuration list for PBXProject "Apple and Tesla NEWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8D2DFD2C516F80003AB9BC /* Debug */,
+				2D8D2DFE2C516F80003AB9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8D2DFF2C516F80003AB9BC /* Build configuration list for PBXNativeTarget "Apple and Tesla NEWS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8D2E002C516F80003AB9BC /* Debug */,
+				2D8D2E012C516F80003AB9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8D2E022C516F80003AB9BC /* Build configuration list for PBXNativeTarget "Apple and Tesla NEWSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8D2E032C516F80003AB9BC /* Debug */,
+				2D8D2E042C516F80003AB9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8D2E052C516F80003AB9BC /* Build configuration list for PBXNativeTarget "Apple and Tesla NEWSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2D8D2E062C516F80003AB9BC /* Debug */,
+				2D8D2E072C516F80003AB9BC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2D8D2DD32C516F7D003AB9BC /* Project object */;
+}
