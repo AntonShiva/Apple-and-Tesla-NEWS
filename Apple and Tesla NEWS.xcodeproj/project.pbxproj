@@ -14,6 +14,7 @@
 		2D8D2DF02C516F80003AB9BC /* Apple_and_Tesla_NEWSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DEF2C516F80003AB9BC /* Apple_and_Tesla_NEWSTests.swift */; };
 		2D8D2DFA2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DF92C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift */; };
 		2D8D2DFC2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DFB2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift */; };
+		2D8D2E092C5170D5003AB9BC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		2D8D2DF52C516F80003AB9BC /* Apple and Tesla NEWSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Apple and Tesla NEWSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		2D8D2DF92C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSUITests.swift; sourceTree = "<group>"; };
 		2D8D2DFB2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				2D8D2DDE2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift */,
 				2D8D2DE02C516F7D003AB9BC /* ContentView.swift */,
+				2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */,
 				2D8D2DE22C516F7F003AB9BC /* Assets.xcassets */,
 				2D8D2DE42C516F7F003AB9BC /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2D8D2E092C5170D5003AB9BC /* NetworkManager.swift in Sources */,
 				2D8D2DE12C516F7D003AB9BC /* ContentView.swift in Sources */,
 				2D8D2DDF2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift in Sources */,
 			);
@@ -428,8 +432,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -437,9 +441,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -457,8 +465,8 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -466,9 +474,13 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.Anton-Reasin.Apple-and-Tesla-NEWS";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
