@@ -15,6 +15,8 @@
 		2D8D2DFA2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DF92C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift */; };
 		2D8D2DFC2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2DFB2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift */; };
 		2D8D2E092C5170D5003AB9BC /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */; };
+		2DEA25BB2C57D0C300AD3860 /* Model.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA25BA2C57D0C300AD3860 /* Model.swift */; };
+		2DEA25BD2C59160C00AD3860 /* NetworkErrors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA25BC2C59160C00AD3860 /* NetworkErrors.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +48,8 @@
 		2D8D2DF92C516F80003AB9BC /* Apple_and_Tesla_NEWSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSUITests.swift; sourceTree = "<group>"; };
 		2D8D2DFB2C516F80003AB9BC /* Apple_and_Tesla_NEWSUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Apple_and_Tesla_NEWSUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		2DEA25BA2C57D0C300AD3860 /* Model.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Model.swift; sourceTree = "<group>"; };
+		2DEA25BC2C59160C00AD3860 /* NetworkErrors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkErrors.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -99,6 +103,8 @@
 				2D8D2DDE2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift */,
 				2D8D2DE02C516F7D003AB9BC /* ContentView.swift */,
 				2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */,
+				2DEA25BA2C57D0C300AD3860 /* Model.swift */,
+				2DEA25BC2C59160C00AD3860 /* NetworkErrors.swift */,
 				2D8D2DE22C516F7F003AB9BC /* Assets.xcassets */,
 				2D8D2DE42C516F7F003AB9BC /* Preview Content */,
 			);
@@ -262,7 +268,9 @@
 			files = (
 				2D8D2E092C5170D5003AB9BC /* NetworkManager.swift in Sources */,
 				2D8D2DE12C516F7D003AB9BC /* ContentView.swift in Sources */,
+				2DEA25BD2C59160C00AD3860 /* NetworkErrors.swift in Sources */,
 				2D8D2DDF2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift in Sources */,
+				2DEA25BB2C57D0C300AD3860 /* Model.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
