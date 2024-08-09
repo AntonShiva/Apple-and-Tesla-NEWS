@@ -26,39 +26,7 @@ struct ContentView: View {
                     ScrollView(.horizontal, showsIndicators: false) {
                         HStack {
                             ForEach(viewModel.news, id: \.url) { article in
-                                VStack {
-                                    ZStack {
-                                        Rectangle()
-                                            .frame(height: 160)
-                                            .foregroundStyle(.secondary)
-                                            .opacity(0.2)
-                                            .cornerRadius(11)
-                                            .padding(.horizontal, 5)
-                                        
-                                        Image(systemName: "photo")
-                                            .resizable()
-                                            .foregroundStyle(.secondary)
-                                            .scaledToFit()
-                                            .frame(height: 80)
-                                    }
-                                    
-                                    VStack(alignment: .leading) {
-                                        Text(article.title)
-                                        
-                                        Spacer()
-                                        
-                                        Text(article.publishedAt.convertDate())
-                                           
-                                    }
-                                    .frame(maxWidth: .infinity, alignment: .leading)
-                                    .padding(.horizontal, 5)
-                                    .padding(.top, 5)
-                                    Spacer()
-                                }
-                                .frame(width: 270, height: 270)
-                                .padding(15)
-                                .background(.white)
-                                .cornerRadius(8)
+                                NewsBlockView(article: article)
                                 
                             }
                         }
@@ -78,8 +46,6 @@ struct ContentView: View {
     ContentView()
 }
 
-extension Date {
-    func convertDate() -> String {
-        return formatted(.dateTime.hour().minute().day().month().year())
-    }
-}
+
+
+
