@@ -19,14 +19,13 @@ struct NewsBlockView: View {
                         image
                             .resizable()
                             .scaledToFill()
-                            .frame(height: 160)
+                            .frame(width: 265, height: 160)
                             .cornerRadius(11)
                             .padding(.horizontal, 5)
                     } else {
                         ZStack {
                             Rectangle()
-                                .frame(height: 160)
-                                .foregroundStyle(.secondary)
+                                .frame(width: 265, height: 160)                                .foregroundStyle(.secondary)
                                 .opacity(0.2)
                                 .cornerRadius(11)
                                 .padding(.horizontal, 5)
@@ -58,8 +57,12 @@ struct NewsBlockView: View {
             Spacer()
         }
         .frame(width: 270, height: 270)
-        .padding(15)
+        .padding(10)
         .background(.background)
-        .cornerRadius(8)
+        .cornerRadius(11)
     }
+}
+
+#Preview {
+    ContentView()
 }

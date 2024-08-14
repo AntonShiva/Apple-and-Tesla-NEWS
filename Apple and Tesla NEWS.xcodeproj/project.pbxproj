@@ -83,6 +83,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D4729012C6B2CB40023C2C7 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2DEA25BA2C57D0C300AD3860 /* Model.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		2D4729022C6B2CCD0023C2C7 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				2DEEC5DE2C633F8C006D07BC /* ViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		2D4729032C6B2CED0023C2C7 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D2DE02C516F7D003AB9BC /* ContentView.swift */,
+				2DD2DF812C65E48B0054D187 /* NewsBlockView.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		2D4729052C6B2DC80023C2C7 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */,
+				2DEA25BC2C59160C00AD3860 /* NetworkErrors.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		2D4729062C6B2EFF0023C2C7 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				2DEEC5E02C63F0DB006D07BC /* Extensions.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
 		2D8D2DD22C516F7D003AB9BC = {
 			isa = PBXGroup;
 			children = (
@@ -107,13 +149,11 @@
 			isa = PBXGroup;
 			children = (
 				2D8D2DDE2C516F7D003AB9BC /* Apple_and_Tesla_NEWSApp.swift */,
-				2D8D2DE02C516F7D003AB9BC /* ContentView.swift */,
-				2D8D2E082C5170D5003AB9BC /* NetworkManager.swift */,
-				2DEEC5DE2C633F8C006D07BC /* ViewModel.swift */,
-				2DEA25BA2C57D0C300AD3860 /* Model.swift */,
-				2DEA25BC2C59160C00AD3860 /* NetworkErrors.swift */,
-				2DD2DF812C65E48B0054D187 /* NewsBlockView.swift */,
-				2DEEC5E02C63F0DB006D07BC /* Extensions.swift */,
+				2D4729032C6B2CED0023C2C7 /* View */,
+				2D4729022C6B2CCD0023C2C7 /* ViewModel */,
+				2D4729012C6B2CB40023C2C7 /* Model */,
+				2D4729052C6B2DC80023C2C7 /* Networking */,
+				2D4729062C6B2EFF0023C2C7 /* Extensions */,
 				2D8D2DE22C516F7F003AB9BC /* Assets.xcassets */,
 				2D8D2DE42C516F7F003AB9BC /* Preview Content */,
 			);
