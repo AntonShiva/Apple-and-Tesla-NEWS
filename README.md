@@ -15,7 +15,6 @@ NewsApp - это iOS-приложение, написанное на SwiftUI, к
 | :---------: | :---------: | 
 |![Главный экран](https://github.com/user-attachments/assets/e3d3d7fc-702e-4a9d-8eca-d2cfee6833f7) | ![Детальный экран](https://github.com/user-attachments/assets/3efada25-0b2d-4ae1-9a48-1c5e36d95407) |
 
-## Видео
 
 
 ## Технологии
@@ -36,4 +35,9 @@ NewsApp - это iOS-приложение, написанное на SwiftUI, к
 
 - **iOS 18.0+**
 - **NewsAPI ключ** (нужен для получения новостей с сервера)
+  ## Видео
+
+
+
+https://github.com/user-attachments/assets/6ea31dce-f449-4f35-b837-4b659ef40405
 
