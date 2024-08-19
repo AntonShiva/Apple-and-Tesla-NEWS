@@ -11,9 +11,11 @@ NewsApp - это iOS-приложение, написанное на SwiftUI, к
 - **Обновление новостей:** Встроенная поддержка pull-to-refresh для получения свежих данных.
   
 ## Скриншоты
+| Home View | News in detail View |
+| :---------: | :---------: | 
+|![Главный экран](https://github.com/user-attachments/assets/e3d3d7fc-702e-4a9d-8eca-d2cfee6833f7) | ![Детальный экран](https://github.com/user-attachments/assets/3efada25-0b2d-4ae1-9a48-1c5e36d95407) |
 
-![Главный экран](https://github.com/user-attachments/assets/e3d3d7fc-702e-4a9d-8eca-d2cfee6833f7)
-![Детальный экран](https://github.com/user-attachments/assets/3efada25-0b2d-4ae1-9a48-1c5e36d95407)
+## Видео
 
 
 ## Технологии
